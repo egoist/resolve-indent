@@ -1,0 +1,33 @@
+{
+  "name": "resolve-indent",
+  "version": "0.1.0",
+  "description": "Split code block by indent",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava",
+    "rollup": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egoist/resolve-indent.git"
+  },
+  "keywords": [
+    "indent",
+    "ast",
+    "walk",
+    "code",
+    "block"
+  ],
+  "author": "EGOIST <0x142857@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/egoist/resolve-indent/issues"
+  },
+  "homepage": "https://github.com/egoist/resolve-indent#readme",
+  "devDependencies": {
+    "ava": "^0.8.0",
+    "babel-core": "^5.8.34",
+    "rollup": "^0.21.2",
+    "rollup-plugin-babel": "^1.0.0"
+  }
+}
