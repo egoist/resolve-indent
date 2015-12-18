@@ -38,14 +38,14 @@ resolveIndent(code)
 
 **You got the output:**
 
-```json
+```
 [
   "import re",
 
   "for test_string in ['555-1212', 'ILL-EGAL']:\n    if re.match(r'^d{3}-d{4}$', test_string):\n        print test_string, 'is a valid US local phone number'\n    else:\n        print test_string, 'rejected'\",
 
   "parents, babies = (1, 1)",
-  
+
   "while babies < 100:\n    print 'This generation has {0} babies'.format(babies)\n    parents, babies = (babies, parents + babies)"
 ]
 ```
