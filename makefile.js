@@ -1,4 +1,4 @@
 publish:
-  npm run rollup
-  npm test
-  npm publish
+  >npm run rollup
+  >npm test
+  >npm publish
